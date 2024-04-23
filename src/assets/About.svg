@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1601 250" width="1601" height="250">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 350px;fill: #000000;font-weight: 400;font-family: "Engry", "Engry" } 
+	</style>
+	<text id="" style="transform: matrix(1,0,0,1,203,190)" >
+	</text>
+	<text id="About" style="transform: matrix(1,0,0,1,-4,244)" >
+		<tspan x="0" y="0" class="t0">A</tspan><tspan  y="0" class="t0">b</tspan><tspan  y="0" class="t0">o</tspan><tspan  y="0" class="t0">u</tspan><tspan  y="0" class="t0">t
+</tspan>
+	</text>
+</svg>

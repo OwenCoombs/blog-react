@@ -11,7 +11,9 @@ function Contact(){
             <img src={Logo}></img>
             <div className="row">
                 <div className="col">
-                    <Link  to={"https://www.linkedin.com/feed/" }>linkedin</Link>
+                <Link to={"https://www.linkedin.com/in/owen-coombs-ab029b254/"} id="linkdinpic">
+                <img src={linkdin}></img>
+                </Link>
                 </div>
                 <div className="col">
                     <Link  to={"owencoombs03@gmail.com" }>Email</Link>

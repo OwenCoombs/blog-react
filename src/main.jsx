@@ -14,6 +14,7 @@ import App from './App'
 import ErrorPage from './ErrorPage'
 import Blogs from './blogs'
 import Contact from './contact'
+import Aboutme from './aboutme'
 
 const site = import.meta.env.BASE_URL
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />
+  },
+  {
+    path: "/aboutme",
+    element: <Aboutme />
   }
 
 ], {

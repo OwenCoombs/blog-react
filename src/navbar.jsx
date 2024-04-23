@@ -3,11 +3,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import navLogo from './assets/bloglogo.svg';
-import Blogs from './blogs';
+// import Blogs from './blogs';
+// import aboutMe from './aboutme';
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+    <Navbar expand="lg" id='navcolor'>
+      
         <Navbar.Brand href="/">
             <img 
             src={navLogo}
@@ -18,11 +19,12 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/Contact">Contact</Nav.Link>
-            <Nav.Link href="/Blogs">Blogs</Nav.Link>
+            <Nav.Link href="/blog-react/Contact">Contact</Nav.Link>
+            <Nav.Link href="/blog-react/Blogs">Blogs</Nav.Link>
+            <Nav.Link href="/blog-react/Aboutme">About Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+     
     </Navbar>
   );
 }
