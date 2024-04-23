@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
             <img 
             src={navLogo}
             width="75"
@@ -18,7 +18,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Contact</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
             <Nav.Link href="/Blogs">Blogs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
