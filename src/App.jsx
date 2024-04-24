@@ -26,7 +26,7 @@ function App() {
       <h5 id="h6font">Owen Coombs</h5>
     </div>
       <div className="d-flex justify-content-center" id="h6left">
-        <p>Full-Stack Software Egineer</p>
+        <p>Full-Stack Software Engineer</p>
       </div>
       
   </div>
