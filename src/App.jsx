@@ -8,7 +8,7 @@ function App() {
   <div>
       <NavBar />
       <div className="d-flex justify-content-center mt-1">
-    <Link to={"https://github.com/OwenCoombs"}>
+    <Link to={"/projects"}>
       <h1 id="projects">Projects</h1>
     </Link>
     </div>

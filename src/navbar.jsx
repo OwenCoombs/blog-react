@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import navLogo from './assets/bloglogo.svg';
 import { Link } from 'react-router-dom';
+import projects from './projects';
 // import Blogs from './blogs';
 // import aboutMe from './aboutme';
 function NavBar() {
@@ -23,6 +24,7 @@ function NavBar() {
             <Nav.Link href="/blog-react/Contact">Contact</Nav.Link>
             <Nav.Link href="/blog-react/Blogs">Blogs</Nav.Link>
             <Nav.Link href="/blog-react/Aboutme">About Me</Nav.Link>
+            <Nav.Link href="/blog-react/projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
      
