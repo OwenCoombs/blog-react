@@ -12,7 +12,7 @@ function App() {
       <h1 id="projects">Projects</h1>
     </Link>
     </div>
-      <div className="d-flex  justify-content-center mt-1">
+      <div className="d-flex justify-content-center mt-1">
     <Link to={"/Contact"}>
       <h1 id="projects">Contact</h1>
     </Link>
