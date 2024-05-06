@@ -14,7 +14,7 @@ function aboutMe(){
        <img src={aboutLogo} id="aboutpic"></img>
        </div>
         <div className="container text-center mt-5 p-2 ">
-       <h4>Im Owen. a Full-Stack Software Egineer.</h4>
+       <h4>Im Owen. a Full-Stack Software Engineer.</h4>
        <p>I thrive in the world of code, where I blend creativity with functionality to craft digital solutions that 
         empower businesses and individuals alike. With a robust skill set spanning both front-end and back-end development, 
         I specialize in weaving intricate webs of code that transform ideas into reality. From crafting elegant user interfaces
