@@ -1,14 +1,17 @@
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
   background-color: #e7dfc6;
 }
+
 #root {
   height: 100%;
 }
-#blogcontainer{
+
+#blogcontainer {
   width: fit-content;
   height: fit-content;
 }
@@ -19,28 +22,34 @@ body {
   font-style: normal;
 }
 
-h1, h4, p, h2, h6, h5{
-  
+h1,
+h4,
+p,
+h2,
+h6,
+h5 {
+
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-#aboutpic{
+#aboutpic {
   width: 950px;
 }
+
 /* 
 #navcolor{
   background-color: #e9f1f7;
 } */
 
 
-#projects{
+#projects {
   font-size: 175px;
   float: right;
   padding-left: 750px;
   color: black;
-  
+
 }
 
 .bebas-neue-regular {
@@ -55,53 +64,65 @@ h1, h4, p, h2, h6, h5{
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-  
+
 }
+
 #projects:hover {
   box-shadow: inset 100px 0 0 0 black;
   color: white;
 }
 
-#h6left{
+#h6left {
   padding-left: 1100px;
 }
 
-#h6font{
+#h6font {
   font-size: 50px;
 
 }
 
-#Blogs{
+#Blogs {
   background-color: #e7dfc6;
 }
 
-#linkdinpic{
+#linkdinpic {
   width: 20px;
   height: 20px;
 }
 
-#facebook, #email, #linkdin{
+#facebook,
+#email,
+#linkdin {
   width: 65px;
   height: 65px;
   margin-bottom: 25px;
-  
+
 
 }
 
-#projectsH1{
+#projectsH1 {
   font-size: 175px;
 }
 
-#card1{
+#card1 {
   max-width: fit-content;
   max-height: fit-content;
 }
 
-#imagesP:hover{
+#imagesP:hover {
   opacity: 1;
 }
 
-#imagesP{
+#imagesP {
+  width: 250px;
+  height: 400px;
+  object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+  padding: 10px;
+  border: 1px solid black; /* Add border if needed */
+  border-radius: 15px; /* Adjust the value for desired roundness */
   opacity: 0.6;
   transition: 0.3s;
 }
+
+
+

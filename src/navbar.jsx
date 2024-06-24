@@ -22,7 +22,6 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/blog-react/Contact">Contact</Nav.Link>
-            <Nav.Link href="/blog-react/Blogs">Blogs</Nav.Link>
             <Nav.Link href="/blog-react/Aboutme">About Me</Nav.Link>
             <Nav.Link href="/blog-react/projects">Projects</Nav.Link>
           </Nav>
